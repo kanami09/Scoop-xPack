@@ -1,42 +1,71 @@
-# Scoop Bucket Template
+# Scoop-xPack
 
-<!-- Uncomment the following line after replacing placeholders -->
-<!-- [![Tests](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/ci.yml) [![Excavator](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml/badge.svg)](https://github.com/<username>/<bucketname>/actions/workflows/excavator.yml) -->
+[![Tests](https://github.com/kanami09/Scoop-xPack/actions/workflows/ci.yml/badge.svg)](https://github.com/kanami09/Scoop-xPack/actions/workflows/ci.yml)
 
-Template bucket for [Scoop](https://scoop.sh), the Windows command-line installer.
+[中文](README.zh-CN.md)
 
-## How do I use this template?
+A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools.github.io/) on Windows.
 
-1. Generate your own copy of this repository with the "Use this template"
-   button.
-2. Allow all GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Actions permissions`.
-   - Select `Allow all actions and reusable workflows`.
-   - Then `Save`.
-3. Allow writing to the repository from within GitHub Actions:
-   - Navigate to `Settings` - `Actions` - `General` - `Workflow permissions`.
-   - Select `Read and write permissions`.
-   - Then `Save`.
-4. Document the bucket in `README.md`.
-5. Replace the placeholder repository string in `bin/auto-pr.ps1`.
-6. Create new manifests by copying `bucket/app-name.json.template` to
-   `bucket/<app-name>.json`.
-7. Commit and push changes.
-8. If you'd like your bucket to be indexed on `https://scoop.sh`, add the
-   topic `scoop-bucket` to your repository.
+[xPack Dev Tools](https://github.com/xpack-dev-tools) provides pre-built binary distributions of embedded development tools (GCC toolchains, LLVM, OpenOCD, etc.). This bucket packages them as Scoop manifests for easy installation and management on Windows.
 
-## How do I install these manifests?
+## Available Packages
 
-After manifests have been committed and pushed, run the following:
+| Manifest                      | Description                                | Notes                                               |
+| ----------------------------- | ------------------------------------------ | --------------------------------------------------- |
+| `xpack-arm-none-eabi-gcc`     | Arm Embedded GCC toolchain (arm-none-eabi) |                                                     |
+| `xpack-arm-none-eabi-gcc-x86` | Arm Embedded GCC toolchain (x86)           | Last version with Windows 32-bit support            |
+
+## Usage
+
+### Prerequisites
+
+This project is a **Scoop** bucket. You need to install Scoop first.
+For most users, run the following two PowerShell commands:
 
 ```pwsh
-scoop bucket add <bucketname> https://github.com/<username>/<bucketname>
-scoop install <bucketname>/<manifestname>
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Invoke-RestMethod -Uri https://get.scoop.sh | Invoke-Expression
 ```
 
-## How do I contribute new manifests?
+If the installation fails, refer to the [Scoop official installation guide](https://github.com/ScoopInstaller/Install#readme).
 
-To make a new manifest contribution, please read the [Contributing
-Guide](https://github.com/ScoopInstaller/.github/blob/main/.github/CONTRIBUTING.md)
-and [App Manifests](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
-wiki page.
+### Add this bucket
+
+```txt
+scoop bucket add xpack https://github.com/kanami09/Scoop-xPack
+```
+
+### Remove this bucket
+
+```txt
+scoop bucket rm xpack
+```
+
+### Install a package
+
+```txt
+scoop install xpack/<app_name>
+```
+
+### Update a package
+
+```txt
+scoop update xpack/<app_name>
+```
+
+### Uninstall a package
+
+```txt
+scoop uninstall <app_name>
+```
+
+## Notes
+
+- All packages are sourced from official [xpack-dev-tools](https://github.com/xpack-dev-tools) GitHub releases.
+- This is an unofficial, community-maintained Scoop bucket and is not affiliated with the xPack project.
+
+## Related Links
+
+- [xPack Dev Tools](https://xpack-dev-tools.github.io/)
+- [Scoop](https://scoop.sh)
+- [Scoop App Manifests Wiki](https://github.com/ScoopInstaller/Scoop/wiki/App-Manifests)
