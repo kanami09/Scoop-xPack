@@ -16,6 +16,10 @@ A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools
 | `xpack-arm-none-eabi-gcc-x86` | Arm Embedded GCC toolchain (x86) | Last version with Windows 32-bit support |
 | `xpack-aarch64-none-elf-gcc`  | AArch64 Embedded GCC toolchain   |                                          |
 | `xpack-riscv-none-elf-gcc`    | RISC-V Embedded GCC toolchain    |                                          |
+| `xpack-clang`                 | LLVM clang toolchain             |                                          |
+| `xpack-clang-x86`             | LLVM clang toolchain (x86)       | Last version with Windows 32-bit support |
+| `xpack-gcc`                   | GNU GCC compiler                 |                                          |
+| `xpack-gcc-x86`               | GNU GCC compiler (x86)           | Last version with Windows 32-bit support |
 
 ## Usage
 

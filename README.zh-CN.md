@@ -16,6 +16,10 @@
 | `xpack-arm-none-eabi-gcc-x86` | Arm 嵌入式 GCC 工具链 (x86) | 此版本是最后一个支持 Windows-32bit 的版本 |
 | `xpack-aarch64-none-elf-gcc`  | AArch64 嵌入式 GCC 工具链   |                                           |
 | `xpack-riscv-none-elf-gcc`    | RISC-V 嵌入式 GCC 工具链    |                                           |
+| `xpack-clang`                 | LLVM clang 工具链           |                                           |
+| `xpack-clang-x86`             | LLVM clang 工具链 (x86)     | 此版本是最后一个支持 Windows-32bit 的版本 |
+| `xpack-gcc`                   | GNU GCC 编译器              |                                           |
+| `xpack-gcc-x86`               | GNU GCC 编译器 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
 
 ## 使用方法
 
