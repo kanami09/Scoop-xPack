@@ -4,9 +4,9 @@
 
 [English](README.md)
 
-本仓库为 [xPack Dev Tools](https://xpack-dev-tools.github.io/) 提供的 [Scoop](https://scoop.sh) 第三方 bucket。
+本仓库为 [xPack Dev Tools](https://xpack-dev-tools.github.io) 提供的 [Scoop](https://scoop.sh) 第三方 bucket。
 
-[xPack Dev Tools](https://github.com/xpack-dev-tools) 提供了一系列预编译的开发工具（如：GCC 工具链、LLVM、OpenOCD 等）的二进制发行版。
+[xPack Dev Tools](https://xpack-dev-tools.github.io) 提供了一系列预编译的开发工具（如：GCC 工具链、LLVM、OpenOCD 等）的二进制发行版。
 
 ## 可用软件包
 
@@ -19,7 +19,7 @@
 
 ### 先决条件
 
-本项目是包管理器 **Scoop** 的 bucket，使用之前需要先安装 Scoop。
+本项目是包管理器 **Scoop** 的 bucket，使用之前需要先安装 Scoop。<br>
 对于一般用户，执行以下两行 PowerShell 脚本即可完成安装：
 
 ```pwsh
@@ -44,24 +44,24 @@ scoop bucket rm xpack
 ### 安装软件包
 
 ```txt
-scoop install xpack/<app_name>
+scoop install xpack/<app-name>
 ```
 
 ### 更新软件包
 
 ```txt
-scoop update xpack/<app_name>
+scoop update xpack/<app-name>
 ```
 
 ### 卸载软件包
 
 ```txt
-scoop uninstall <app_name>
+scoop uninstall <app-name>
 ```
 
 ## 注意事项
 
-- 所有软件包均来源于官方 [xpack-dev-tools](https://github.com/xpack-dev-tools) GitHub Releases。
+- 所有软件包均来源于官方的 [GitHub Releases](https://github.com/xpack-dev-tools)。
 - 本 bucket 为非官方的社区维护项目，与 xPack 项目无隶属关系。
 
 ## 相关链接

@@ -4,22 +4,22 @@
 
 [中文](README.zh-CN.md)
 
-A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools.github.io/) on Windows.
+A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools.github.io) on Windows.
 
-[xPack Dev Tools](https://github.com/xpack-dev-tools) provides pre-built binary distributions of embedded development tools (GCC toolchains, LLVM, OpenOCD, etc.). This bucket packages them as Scoop manifests for easy installation and management on Windows.
+[xPack Dev Tools](https://xpack-dev-tools.github.io) provides pre-built binary distributions of embedded development tools (GCC toolchains, LLVM, OpenOCD, etc.). This bucket packages them as Scoop manifests for easy installation and management on Windows.
 
 ## Available Packages
 
-| Manifest                      | Description                                | Notes                                               |
-| ----------------------------- | ------------------------------------------ | --------------------------------------------------- |
-| `xpack-arm-none-eabi-gcc`     | Arm Embedded GCC toolchain (arm-none-eabi) |                                                     |
-| `xpack-arm-none-eabi-gcc-x86` | Arm Embedded GCC toolchain (x86)           | Last version with Windows 32-bit support            |
+| Manifest                      | Description                      | Notes                                    |
+| ----------------------------- | --------------------------       | -----------------------------------------|
+| `xpack-arm-none-eabi-gcc`     | Arm Embedded GCC toolchain       |                                          |
+| `xpack-arm-none-eabi-gcc-x86` | Arm Embedded GCC toolchain (x86) | Last version with Windows 32-bit support |
 
 ## Usage
 
 ### Prerequisites
 
-This project is a **Scoop** bucket. You need to install Scoop first.
+This project is a **Scoop** bucket. You need to install Scoop first.<br>
 For most users, run the following two PowerShell commands:
 
 ```pwsh
@@ -44,24 +44,24 @@ scoop bucket rm xpack
 ### Install a package
 
 ```txt
-scoop install xpack/<app_name>
+scoop install xpack/<app-name>
 ```
 
 ### Update a package
 
 ```txt
-scoop update xpack/<app_name>
+scoop update xpack/<app-name>
 ```
 
 ### Uninstall a package
 
 ```txt
-scoop uninstall <app_name>
+scoop uninstall <app-name>
 ```
 
 ## Notes
 
-- All packages are sourced from official [xpack-dev-tools](https://github.com/xpack-dev-tools) GitHub releases.
+- All packages are sourced from official [GitHub releases](https://github.com/xpack-dev-tools).
 - This is an unofficial, community-maintained Scoop bucket and is not affiliated with the xPack project.
 
 ## Related Links
