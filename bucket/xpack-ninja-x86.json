@@ -10,5 +10,5 @@
         }
     },
     "extract_dir": "xpack-ninja-build-1.10.2-5",
-    "env_add_path": "bin"
+    "bin": "bin/ninja.exe"
 }

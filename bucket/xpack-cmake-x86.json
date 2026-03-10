@@ -10,5 +10,10 @@
         }
     },
     "extract_dir": "xpack-cmake-3.20.6-2",
-    "env_add_path": "bin"
+    "bin": [
+        "bin/cmake.exe",
+        "bin/cmcldeps.exe",
+        "bin/cpack.exe",
+        "bin/ctest.exe"
+    ]
 }

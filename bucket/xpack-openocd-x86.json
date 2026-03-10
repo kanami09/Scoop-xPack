@@ -10,5 +10,5 @@
         }
     },
     "extract_dir": "xpack-openocd-0.11.0-3",
-    "env_add_path": "bin"
+    "bin": "bin/openocd.exe"
 }

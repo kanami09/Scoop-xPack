@@ -10,7 +10,7 @@
         }
     },
     "extract_dir": "xpack-ninja-build-1.13.1-1",
-    "env_add_path": "bin",
+    "bin": "bin/ninja.exe",
     "checkver": {
         "github": "https://github.com/xpack-dev-tools/ninja-build-xpack",
         "regex": "releases/tag/v([\\d.]+-[\\d.]+)\""

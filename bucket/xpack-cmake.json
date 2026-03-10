@@ -10,7 +10,12 @@
         }
     },
     "extract_dir": "xpack-cmake-3.31.9-1",
-    "env_add_path": "bin",
+    "bin": [
+        "bin/cmake.exe",
+        "bin/cmcldeps.exe",
+        "bin/cpack.exe",
+        "bin/ctest.exe"
+    ],
     "checkver": {
         "github": "https://github.com/xpack-dev-tools/cmake-xpack",
         "regex": "releases/tag/v([\\d.]+-[\\d.]+)\""

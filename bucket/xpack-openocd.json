@@ -10,7 +10,7 @@
         }
     },
     "extract_dir": "xpack-openocd-0.12.0-7",
-    "env_add_path": "bin",
+    "bin": "bin/openocd.exe",
     "checkver": {
         "github": "https://github.com/xpack-dev-tools/openocd-xpack",
         "regex": "releases/tag/v([\\d.]+-[\\d.]+)\""
