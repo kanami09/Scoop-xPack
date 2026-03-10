@@ -20,10 +20,10 @@
 | `xpack-clang-x86`             | LLVM clang 工具链 (x86)     | 此版本是最后一个支持 Windows-32bit 的版本 |
 | `xpack-gcc`                   | GNU GCC 编译器              |                                           |
 | `xpack-gcc-x86`               | GNU GCC 编译器 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
-| `xpack-cmake`                 | CMake 构建系统              |                                           |
-| `xpack-cmake-x86`             | CMake 构建系统 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
-| `xpack-ninja`                 | Ninja 构建系统              |                                           |
-| `xpack-ninja-x86`             | Ninja 构建系统 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
+| `xpack-cmake`                 | CMake 构建工具              |                                           |
+| `xpack-cmake-x86`             | CMake 构建工具 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
+| `xpack-ninja`                 | Ninja 构建工具              |                                           |
+| `xpack-ninja-x86`             | Ninja 构建工具 (x86)        | 此版本是最后一个支持 Windows-32bit 的版本 |
 | `xpack-openocd`               | OpenOCD 片上调试器          |                                           |
 | `xpack-openocd-x86`           | OpenOCD 片上调试器 (x86)    | 此版本是最后一个支持 Windows-32bit 的版本 |
 

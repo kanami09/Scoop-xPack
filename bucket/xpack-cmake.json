@@ -1,6 +1,6 @@
 {
     "version": "3.31.9-1",
-    "description": "A binary distribution of CMake from xPack.",
+    "description": "A binary distribution of the CMake build tools from xPack.",
     "homepage": "https://xpack-dev-tools.github.io/cmake-xpack/",
     "license": "MIT",
     "architecture": {

@@ -1,6 +1,6 @@
 {
     "version": "1.13.1-1",
-    "description": "A binary distribution of Ninja from xPack.",
+    "description": "A binary distribution of the Ninja Build tool from xPack.",
     "homepage": "https://xpack-dev-tools.github.io/ninja-build-xpack/",
     "license": "MIT",
     "architecture": {

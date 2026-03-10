@@ -20,10 +20,10 @@ A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools
 | `xpack-clang-x86`             | LLVM clang toolchain (x86)       | Last version with Windows 32-bit support |
 | `xpack-gcc`                   | GNU GCC compiler                 |                                          |
 | `xpack-gcc-x86`               | GNU GCC compiler (x86)           | Last version with Windows 32-bit support |
-| `xpack-cmake`                 | CMake build system               |                                          |
-| `xpack-cmake-x86`             | CMake build system (x86)         | Last version with Windows 32-bit support |
-| `xpack-ninja`                 | Ninja build system               |                                          |
-| `xpack-ninja-x86`             | Ninja build system (x86)         | Last version with Windows 32-bit support |
+| `xpack-cmake`                 | CMake build tool                 |                                          |
+| `xpack-cmake-x86`             | CMake build tool (x86)           | Last version with Windows 32-bit support |
+| `xpack-ninja`                 | Ninja build tool                 |                                          |
+| `xpack-ninja-x86`             | Ninja build tool (x86)           | Last version with Windows 32-bit support |
 | `xpack-openocd`               | OpenOCD on-chip debugger         |                                          |
 | `xpack-openocd-x86`           | OpenOCD on-chip debugger (x86)   | Last version with Windows 32-bit support |
 
