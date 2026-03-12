@@ -4,14 +4,14 @@
 
 [English](README.md)
 
-本仓库为 [xPack Dev Tools](https://xpack-dev-tools.github.io) 提供的 [Scoop](https://scoop.sh) 第三方 bucket。
+本仓库是适用于 Windows 的 [xPack Dev Tools](https://xpack-dev-tools.github.io) 非官方 [Scoop](https://scoop.sh) bucket。
 
-[xPack Dev Tools](https://xpack-dev-tools.github.io) 提供了一系列预编译的开发工具（如：GCC 工具链、LLVM、OpenOCD 等）的二进制发行版。
+[xPack Dev Tools](https://xpack-dev-tools.github.io) 提供了多种开发工具（如：GCC 工具链、LLVM clang、OpenOCD 等）的预编译二进制发行版。本仓库将其打包为 Scoop bucket，方便在 Windows 上安装和管理。
 
 ## 可用软件包
 
 | 名称                          | 说明                        | 备注                                      |
-|------------------------------ | --------------------------- | ----------------------------------------- |
+|-------------------------------|-----------------------------|-------------------------------------------|
 | `xpack-arm-none-eabi-gcc`     | Arm 嵌入式 GCC 工具链       |                                           |
 | `xpack-arm-none-eabi-gcc-x86` | Arm 嵌入式 GCC 工具链 (x86) | 此版本是最后一个支持 Windows-32bit 的版本 |
 | `xpack-aarch64-none-elf-gcc`  | AArch64 嵌入式 GCC 工具链   |                                           |

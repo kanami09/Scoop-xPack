@@ -4,14 +4,14 @@
 
 [中文](README.zh-CN.md)
 
-A [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools.github.io) on Windows.
+An unofficial [Scoop](https://scoop.sh) bucket for [xPack Dev Tools](https://xpack-dev-tools.github.io) on Windows.
 
-[xPack Dev Tools](https://xpack-dev-tools.github.io) provides pre-built binary distributions of embedded development tools (GCC toolchains, LLVM, OpenOCD, etc.). This bucket packages them as Scoop manifests for easy installation and management on Windows.
+[xPack Dev Tools](https://xpack-dev-tools.github.io) provides pre-built binary distributions of various development tools (GCC toolchains, LLVM clang, OpenOCD, etc.). This bucket packages them as Scoop manifests for easy installation and management on Windows.
 
 ## Available Packages
 
 | Manifest                      | Description                      | Notes                                    |
-| ----------------------------- | --------------------------       | -----------------------------------------|
+|-------------------------------|----------------------------------|------------------------------------------|
 | `xpack-arm-none-eabi-gcc`     | Arm Embedded GCC toolchain       |                                          |
 | `xpack-arm-none-eabi-gcc-x86` | Arm Embedded GCC toolchain (x86) | Last version with Windows 32-bit support |
 | `xpack-aarch64-none-elf-gcc`  | AArch64 Embedded GCC toolchain   |                                          |
@@ -73,7 +73,7 @@ scoop uninstall <app-name>
 
 ## Notes
 
-- All packages are sourced from official [GitHub releases](https://github.com/xpack-dev-tools).
+- All packages are sourced from official [GitHub Releases](https://github.com/xpack-dev-tools).
 - This is an unofficial, community-maintained Scoop bucket and is not affiliated with the xPack project.
 
 ## Related Links
